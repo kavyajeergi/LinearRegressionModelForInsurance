@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load the trained Linear Regression model
-model = joblib.load('/content/linear_regression_model.pkl')
-scaler = joblib.load('/content/scaler.pkl')
+model = joblib.load('linear_regression_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # Streamlit app
 st.title("🏥 Insurance Charges Prediction App")
